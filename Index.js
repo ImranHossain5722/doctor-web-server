@@ -156,7 +156,7 @@ app.get('/admin/:email', async (req,res)=>{
 run().catch(console.dir);
 
 app.get("/", (req, res) => {
-  res.send("Hello Doctor web");
+  res.send("Doctor web project");
 });
 
 app.listen(port, () => {
