@@ -17,7 +17,6 @@ const client = new MongoClient(uri, {
   useUnifiedTopology: true,
   serverApi: ServerApiVersion.v1,
 });
-
 //function for jwt 
 function verifyJwt(req,res,next){
  const autHeader =req.headers.authorization
